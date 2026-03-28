@@ -6,7 +6,7 @@ function App2 ()
         {id : 2, name : "Mobile" , stock : 30},
         {id : 3, name : "Headphones", stock :0}
     ]);
-
+    console.log("Changes for test");
     const [name , setName]= useState("");
     const [stock, setStock] = useState("");
 
@@ -43,7 +43,6 @@ function App2 ()
 
         ))}
         </ol>
-
         </>
     );
 
