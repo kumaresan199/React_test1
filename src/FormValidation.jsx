@@ -11,6 +11,7 @@ function FormValidation() {
   });
 
   const [errors, setErrors] = useState({});
+  const [submitted, setSubmitted] = useState(false);
 
   // Handle input change
   const handleChange = (e) => {

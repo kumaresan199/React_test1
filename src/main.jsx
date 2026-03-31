@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './FormValidation.jsx'
+import App from './Registration_form.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
